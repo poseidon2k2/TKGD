@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMISSION HCMUS - University</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../font/icofont/icofont.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  </head>
+  <body class="admission-page">
+    <section class="slider-section mrg-bot-70" id="first-element-page">
+      <div class="image-slider">
+        <img src="../img/diem-chuan-trung-tuyen-dien-uu-tien-xet-tuyen-thang-vao-dh-khtn-tphcm-1692702085711402156285.jpeg">
+        <div class="overlay-title"></div>
+        <div class="content-overlay">
+          <h1>Admission and Aid</h1>
+          <p class="title-text">Brown welcomes talented, high-achieving students who contribute a wide diversity of views, experiences and perspectives. We invite you to learn more about how to join this vibrant academic community.</p>
+        </div>
+      </div>
+    </section>
+    <section class="mrg-bot-70">
+      <div class="container">
+        <div class="flex-wrapper">
+          <div class="sidebar-left-sticky" style="position: relative;"  >
+            <ul class="sub_nav_list scroll-effect" id="sidebar-sticky">
+              <li class="sub_nav_item">
+                <a class="sub_nav_link " href="#">
+                  <span class="sub_nav_link_label">Chương Trình Sau Đại Học <i class="icofont-arrow-right"></i></span>
+                </a>
+              </li>
+              <li class="sub_nav_item">
+                <a class="sub_nav_link " href="#">
+                  <span class="sub_nav_link_label">Chương Trình Đại Học <i class="icofont-arrow-right"></i></span>
+                </a>
+              </li>
+              <li class="sub_nav_item">
+                <a class="sub_nav_link " href="#">
+                  <span class="sub_nav_link_label">Thông Tin FAQ/Contact Us <i class="icofont-arrow-right"></i></span>
+                </a>
+              </li>
+              <li class="img-ads">
+                <img src="../img/chuong-trinh-dao-tao-01.png">
+              </li>
+            </ul>
+          </div>
+          <div class="content-page-admission">
+            <div class="content_block">
+              <div class="content_block_inner">
+                <div class="typography">
+                    <p>Brown is renowned for its distinctive undergraduate experience rooted in its flexible yet rigorous Open Curriculum. Our campus is also home to the Warren Alpert Medical School and a wide array of master's and doctoral programs, executive education offerings and pre-college programs.</p>
+                </div>
+              </div>
+            </div>
+            <div class="component_block">
+             <article class="stat_simple">
+              <h4>7,125</h4>
+              <p>undergraduates</p>
+             </article> 
+             <article class="stat_simple">
+               <h4>2,689</h4>
+               <p>graduate students</p>
+             </article>  
+             <article class="stat_simple">
+              <h4>611</h4>
+              <p>medical students</p>
+             </article>
+            </div>
+            <div class="content_block">
+              <div class="content_block_inner">
+                <div class="typography">
+                    <p>Across each and every program, we actively seek students from a wide variety of backgrounds. We value the exceptional academic talent, intellectual curiosity, individual perspectives, creativity, and other defining attributes that each student uniquely contributes to our community.</p>
+                </div>
+              </div>
+            </div>
+            <div class="image-block">
+              <img src="../img/hcmus.png">  
+              <p>Brown is a leading research university where the curiosity, creativity and intellectual joy of students drives academic excellence.</p>
+            </div>
+            <div class="component_body">
+              <div class="component_content">
+                <div class="component_content_group">
+                  <h3 class="component_title">
+                    <a class="component_title_link" href="#">Executive Education
+                      <span class="quick_nav_link_icon">
+                          <span class="quick_nav_link_icon_default"><i class="icofont-arrow-right"></i></span>
+                      </span>
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="component_details">
+                <div class="component_peak_details_inner">
+                  <div class="peak_details_caption">Designed to advance the careers of accomplished professionals from across the globe, executive master’s degrees are offered through the School of Professional Studies.</div>
+                </div>
+              </div>
+            </div>
+            <div class="component_body">
+              <div class="component_content">
+                <div class="component_content_group">
+                  <h3 class="component_title">
+                    <a class="component_title_link" href="#">Pre-College Programs
+                      <span class="quick_nav_link_icon">
+                          <span class="quick_nav_link_icon_default"><i class="icofont-arrow-right"></i></span>
+                      </span>
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="component_details">
+                <div class="component_peak_details_inner">
+                  <div class="peak_details_caption">Brown Pre-College Summer Programs are unique opportunities for motivated, responsible young people to experience university-level life and learning on campus or in a location-based environment.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script type="text/javascript">
+    window.addEventListener('scroll', function() {
+    let element = document.getElementById('sidebar-sticky');
+    let element2 = document.getElementById('first-element-page');
+    let rect = element2.getBoundingClientRect();
+    if (rect.top <= -750) {
+      element.classList.add('sticky');
+    } else{
+      element.classList.remove('sticky');
+    }
+
+    console.log(rect.top);
+    });
+    
+  </script>
+  <script>new WOW().init();</script>
+  </html>
